@@ -77,14 +77,33 @@ h1 {
 
 .information {
     display: flex;
-    margin: 20px;
-    padding: 16px;
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
 .info {
     display: flex;
     padding: 16px;
     width: 200px;
+}
+
+.smallcontainer {
+    background-color: #3882F6;
+    padding: 40px;
+    margin: 50px;
+}
+
+p {
+    color: #F9FAF8;
+}
+
+h3 {
+    font-size: 20px;
+    color: #F9FAF8;
 }
 
 .quote {
