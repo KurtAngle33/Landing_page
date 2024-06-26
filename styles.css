@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     margin: auto;
     height: 100vh;
-    j
 }
 
 a {
@@ -15,11 +14,17 @@ a {
 
 ul {
     list-style: none;
-    width: 600px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 .header {
@@ -31,6 +36,7 @@ ul {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .logo {
@@ -42,12 +48,13 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 80px;
     padding-bottom: 160px;
     width: auto;
     margin: 0px;
+    gap: 36px;
 }
 
 .intro {
@@ -61,9 +68,11 @@ ul {
     background-color: #F9FAF8;
     color: #1F2937;
     display: flex;
-    padding-left: 80px;
     width: 600px;
     height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .information {
@@ -81,11 +90,17 @@ ul {
 .quote {
     display: flex;
     background-color: #e5e7eb;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
-    text-align: center;
-    padding: 16px;
+    font-weight: 100;
 }
 
 .footer {
