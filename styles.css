@@ -122,6 +122,27 @@ h2 {
     font-weight: 100;
 }
 
+button {
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+button.button1 {
+    background-color: #3882F6;
+    width: auto;
+    padding: 10px 30px;
+}
+
+button.button2 {
+    border: 1px solid #e5e7eb;
+    width: auto;
+    background: none;
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
